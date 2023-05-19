@@ -1,6 +1,6 @@
 import { IoIosPhonePortrait } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
-import { GoLocation } from "react-icons/Go";
+import { GoLocation } from "react-icons/go";
 import styles from "./index.module.scss";
 
 const Footer = () => {
