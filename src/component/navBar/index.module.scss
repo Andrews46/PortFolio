@@ -1,0 +1,29 @@
+.NavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(64, 192, 215, 0.891);
+  width: 100%;
+  .lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    :hover {
+      color: chartreuse;
+    }
+  }
+  button {
+    background-color: transparent;
+    border-radius: 12px;
+    border: 2px solid rgba(21, 146, 69, 0.31);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .NavBar {
+    display: none;
+  }
+}

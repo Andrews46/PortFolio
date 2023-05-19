@@ -1,0 +1,27 @@
+.Menu {
+  font-size: 28px;
+  display: none;
+  .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Menu {
+    display: flex;
+    position: fixed;
+    top: 4px;
+    left: 10px;
+  }
+}

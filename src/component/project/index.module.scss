@@ -1,0 +1,27 @@
+.Project {
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  .imgProject {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .imagesProject {
+    width: 100%;
+    box-shadow: 8px 10px rgba(0, 0, 0, 0.428);
+    border-radius: 18px;
+  }
+  .imagesProject:hover {
+    transition: all 0.35s;
+    transform: scale(1.2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .imagesProject {
+  }
+}
