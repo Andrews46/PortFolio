@@ -10,15 +10,13 @@ const Menu = () => {
   const onHandleClose = () => {
     setVisible(false);
   };
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+
   return (
     <div className={styles.Menu}>
-      <GiHamburgerMenu onClick={openModal} />
+      <div className={styles.hamburgerMenu}>
+        <GiHamburgerMenu onClick={openModal} />
+      </div>
+
       {visible && (
         <div className={styles.modal}>
           <ul>
@@ -37,7 +35,9 @@ const Menu = () => {
             <a href="#footer" onClick={onHandleClose}>
               Contact-me
             </a>
-            <button onClick={onHandleClose}>x</button>
+            <button className={styles.btnModal} onClick={onHandleClose}>
+              x
+            </button>
           </ul>
         </div>
       )}

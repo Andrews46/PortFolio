@@ -1,11 +1,18 @@
 .Menu {
   font-size: 28px;
   display: none;
+  .hamburgerMenu {
+    position: fixed;
+    top: 10px;
+    left: 4px;
+    color: rgb(26, 26, 25);
+    cursor: pointer;
+  }
   .modal {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: aqua;
+    background-color: rgb(231, 250, 89);
     width: 100vw;
     height: 100vh;
   }
@@ -16,12 +23,24 @@
     align-items: center;
     gap: 40px;
   }
+  .btnModal {
+    cursor: pointer;
+    width: 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(49, 49, 49);
+    color: whitesmoke;
+  }
+  .btnModal:hover {
+    background-color: darkblue;
+    color: chartreuse;
+  }
 }
 @media screen and (max-width: 768px) {
   .Menu {
     display: flex;
     position: fixed;
-    top: 4px;
-    left: 10px;
+    top: 0;
+    left: 0;
   }
 }
