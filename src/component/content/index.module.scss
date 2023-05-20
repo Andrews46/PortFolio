@@ -10,12 +10,15 @@
     .imgSkills {
       padding-left: 10px;
     }
+    .imgSk {
+      padding-left: 10px;
+      height: 28px;
+    }
   }
 }
 @media screen and (max-width: 768px) {
   .iconSkills {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -24,5 +27,16 @@
   .imgSkills {
     height: 34px;
     width: 120px;
+  }
+  .skillsLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skillsRight {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 57px;
   }
 }
