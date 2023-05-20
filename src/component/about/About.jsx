@@ -6,7 +6,7 @@ const About = () => {
   };
   return (
     <div onClick={onHandleClik} id="about" className={styles.About}>
-      <h3>About me</h3>
+      <h2>About me</h2>
       <p>
         Sono diplomato all'Istituto Tecnico Cannizzaro di Catania, con diploma
         di perito informatico. Mi affascina tutto ciò che riguarda la

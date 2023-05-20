@@ -17,6 +17,8 @@
     height: 100vh;
   }
   ul {
+    position: fixed;
+    left: 24%;
     display: flex;
     flex-direction: column;
     justify-content: center;

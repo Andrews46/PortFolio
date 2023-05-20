@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <div onClick={onHadleClick} id="projects" className={styles.Project}>
       <div className={styles.imgProject}>
-        <h3> Project: GoCine </h3>
+        <h2> Project: GoCine </h2>
 
         <p>
           App multimediale con riproduzione trailer ultime uscite e prenotazione
@@ -16,7 +16,7 @@ const Project = () => {
         <a href="https://finalprojectdb-d09ac.web.app/">
           <img className={styles.imagesProject} src="GoCine.png" alt="" />
         </a>
-        <h3>AppCocktail</h3>
+        <h2>AppCocktail</h2>
 
         <p>
           App di visualizzazione cocktail con istruzioni per riprodurli.
@@ -25,13 +25,13 @@ const Project = () => {
         <a href="https://app-cocktail.vercel.app/">
           <img className={styles.imagesProject} src="AppCocktail.png" alt="" />
         </a>
-        <h3>Clone Twitter</h3>
+        <h2>Clone Twitter</h2>
 
         <p>Riproduzione app di twitter realizzata con React </p>
         <a href="https://twitter-clone-beta-ebon.vercel.app/">
           <img className={styles.imagesProject} src="CloneTwitter.png" alt="" />
         </a>
-        <h3>AndrewsVideo</h3>
+        <h2>AndrewsVideo</h2>
         <p>
           App per visualizzare le nuove uscite al cinema realizzata con
           Javascript,Css,Html .
