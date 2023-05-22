@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100&family=Raleway:wght@200&display=swap");
+
 .Experience {
   width: 100%;
   height: 800px;
-
+  color: whitesmoke;
   .container {
     display: flex;
     flex-direction: column;
@@ -16,5 +17,8 @@
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     margin-bottom: 10px;
+  }
+  h2 {
+    font-family: "Raleway";
   }
 }

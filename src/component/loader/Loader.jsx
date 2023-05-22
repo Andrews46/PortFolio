@@ -6,7 +6,7 @@ const Loader = () => {
     loading: true,
     size: 275,
     duration: 2,
-    colors: ["#ff0303", "#7fff00", "#0800ff"],
+    colors: ["#ff4603", "#7fff00", "#00b3ff"],
   };
 
   return (

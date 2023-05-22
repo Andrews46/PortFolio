@@ -8,7 +8,7 @@ const Content = () => {
   return (
     <>
       <div onClick={handleClick} id="content" className={styles.Content}>
-        <h2>Skills</h2>
+        <h2 className={styles.title}>Skills</h2>
         <div className={styles.iconSkills}>
           <div className={styles.skillsLeft}>
             <img

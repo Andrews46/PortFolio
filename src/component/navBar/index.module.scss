@@ -2,13 +2,15 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(64, 192, 215, 0.891);
+  background-color: rgba(0, 191, 225, 0.891);
   width: 100%;
+  z-index: 999;
   .lista {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+    color: whitesmoke;
     cursor: pointer;
     :hover {
       color: chartreuse;
@@ -19,6 +21,7 @@
     border-radius: 12px;
     border: 2px solid rgba(21, 146, 69, 0.31);
     cursor: pointer;
+    color: whitesmoke;
   }
 }
 

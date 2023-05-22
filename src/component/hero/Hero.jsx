@@ -9,6 +9,7 @@ const Hero = () => {
       <div className={styles.contain}>
         <div className={styles.oneCard}>
           <div className={styles.CardDescr}>
+            <div className={styles.design}></div>
             <h1>Hi, I Am </h1>
             <h1>Andrea Cosentino</h1>
             <h2>Front-end developer junior</h2>
