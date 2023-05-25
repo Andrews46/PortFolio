@@ -1,0 +1,17 @@
+.Curriculum {
+  display: flex;
+  justify-content: center;
+  transform: translateY(-28px);
+  :visited {
+    color: rgb(244, 244, 7);
+  }
+  button {
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgba(95, 158, 160, 0.6274509804);
+  }
+  button:hover {
+    background-color: #0343b0bc;
+    color: whitesmoke;
+  }
+}

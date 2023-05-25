@@ -4,6 +4,7 @@ import styles from "./App.scss";
 
 import NavBar from "./component/navBar";
 import Hero from "./component/hero";
+import Curriculum from "./component/curriculum";
 import Menu from "./component/menu";
 import About from "./component/about";
 import Content from "./component/content";
@@ -40,6 +41,7 @@ function App() {
       ) : (
         <>
           <Hero id="Home" />
+          <Curriculum />
           <NavBar onClick={handleNavClick} />
           <Menu />
           <About id="About" />
